@@ -1,5 +1,6 @@
-from django.shortcuts import render
 from django.http import HttpResponse
+from django.shortcuts import render
+
 # Create your views here.
 def index(request):
-    return HtppResponse("Hi! WWelcome to my Django Application on Zuri")
+    return HttpResponse("Hi, WWelcome to my Django Application on Zuri")
